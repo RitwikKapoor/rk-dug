@@ -1,7 +1,5 @@
 <script>
 	import { userData } from '../data/user.js';
-	import icon_redirect from '/icon_redirect.svg';
-	import icon_three_dots from '/icon_three_dots.svg';
 	let isFollowed = false;
 
 	function toggleFollow() {
@@ -47,9 +45,9 @@
 			<div class="flex items-center gap-4">
 				<a class="flex items-center gap-2 text-sm font-normal text-[#4D4D4D]" href="/">
 					My website
-					<img alt="website" src={icon_redirect} />
+					<img alt="website" src="/icon_redirect.svg" />
 				</a>
-				<img alt="three dots" src={icon_three_dots} class="cursor-pointer" />
+				<img alt="three dots" src="/icon_three_dots.svg" class="cursor-pointer" />
 			</div>
 		</div>
 	</div>

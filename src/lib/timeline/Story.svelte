@@ -1,7 +1,6 @@
 <script lang="ts">
 	export let story: any;
 	import Card from './Card.svelte';
-	import sym_story from '/sym_story.svg';
 </script>
 
 <div class="flex items-center">
@@ -15,7 +14,7 @@
 		</div>
 
 		<div class="absolute -right-2.5">
-			<img src={sym_story} alt="circle" />
+			<img src="/sym_story.svg" alt="circle" />
 		</div>
 	</div>
 

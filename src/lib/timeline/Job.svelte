@@ -1,7 +1,5 @@
 <script lang="ts">
 	export let job: any;
-	import sym_job from '/sym_job.svg';
-	import arrow from '/arrow.svg';
 </script>
 
 <div class="flex items-center">
@@ -19,11 +17,11 @@
 		</div>
 
 		<div class="absolute -right-4">
-			<img src={sym_job} alt="circle" />
+			<img src="/sym_job.svg" alt="circle" />
 		</div>
 
 		<div class="absolute -right-2.5 top-0">
-			<img class="w-4" src={arrow} alt="arrow" />
+			<img class="w-4" src="/arrow.svg" alt="arrow" />
 		</div>
 	</div>
 
