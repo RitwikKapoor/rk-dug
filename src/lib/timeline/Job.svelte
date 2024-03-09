@@ -30,7 +30,7 @@
 	<div class="ml-5 px-6 py-2">
 		<div class="w-full max-w-2xl bg-white px-5 py-4 shadow-job_shadow">
 			<h2 class="text-xl/8 font-bold text-[#141618]">{job.title}</h2>
-			<p class="h-[15px] w-[103px] text-xs leading-[14.52px] text-[#7A9299]">{job.job_style}</p>
+			<p class="h-[15px] w-[103px] text-xs leading-[14.52px] font-normal text-[#7A9299]">{job.job_style.join(' · ')}</p>
 		</div>
 	</div>
 </div>
