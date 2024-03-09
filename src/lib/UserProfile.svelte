@@ -1,7 +1,7 @@
 <script>
 	import { userData } from '../data/user.js';
-	import icon_redirect from '$assets/icon_redirect.svg';
-	import icon_three_dots from '$assets/icon_three_dots.svg';
+	import icon_redirect from '/icon_redirect.svg';
+	import icon_three_dots from '/icon_three_dots.svg';
 	let isFollowed = false;
 
 	function toggleFollow() {

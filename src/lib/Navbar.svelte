@@ -1,11 +1,11 @@
 <script>
-	import main_logo from '$assets/main_logo.svg';
-	import icon_home from '$assets/icon_home.svg';
-	import icon_explore from '$assets/icon_explore.svg';
-	import icon_learn from '$assets/icon_learn.svg';
-	import icon_down from '$assets/icon_down.svg';
-	import icon_plus from '$assets/icon_plus.svg';
-	import avatar from '$assets/avatar.jpeg';
+	import main_logo from '/main_logo.svg';
+	import icon_home from '/icon_home.svg';
+	import icon_explore from '/icon_explore.svg';
+	import icon_learn from '/icon_learn.svg';
+	import icon_down from '/icon_down.svg';
+	import icon_plus from '/icon_plus.svg';
+	import avatar from '/avatar.jpeg';
 	import Button from '$lib/components/ui/button/button.svelte';
 </script>
 

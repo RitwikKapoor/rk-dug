@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let story: any;
 	import Card from './Card.svelte';
-	import sym_story from '$assets/sym_story.svg';
+	import sym_story from '/sym_story.svg';
 </script>
 
 <div class="flex items-center">

@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let job: any;
-	import sym_job from '$assets/sym_job.svg';
-	import arrow from '$assets/arrow.svg';
+	import sym_job from '/sym_job.svg';
+	import arrow from '/arrow.svg';
 </script>
 
 <div class="flex items-center">
